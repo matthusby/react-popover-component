@@ -7,10 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/slavakisel/react-popover-component.git"
   },
-  "keywords": [
-    "react",
-    "popover"
-  ],
+  "keywords": ["react", "popover"],
   "author": "Slava Kisel <letitbe400@gmail.com>",
   "bugs": {
     "url": "https://github.com/slavakisel/react-popover-component/issues"
@@ -34,7 +31,7 @@
     "html-webpack-plugin": "^2.30.1",
     "jest": "^24.9.0",
     "jest-serializer-enzyme": "^1.0.0",
-    "node-sass": "^4.9.3",
+    "node-sass": "^9.0.0",
     "path": "^0.12.7",
     "react-dom": "^15.6.1",
     "react-test-renderer": "^15.5.4",
@@ -47,16 +44,14 @@
     "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
-    "react": "^15.6.1",
+    "react": "^18.2.0",
     "react-onclickoutside": "^6.5.0"
   },
   "resolutions": {
     "kind-of": ">= 6.0.3"
   },
   "jest": {
-    "snapshotSerializers": [
-      "<rootDir>/node_modules/jest-serializer-enzyme"
-    ]
+    "snapshotSerializers": ["<rootDir>/node_modules/jest-serializer-enzyme"]
   },
   "scripts": {
     "test": "jest",
